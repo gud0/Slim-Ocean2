@@ -4,40 +4,40 @@
   font-family: 'Alegreya';
   font-weight: normal;
   font-style: normal;
-src: url('font/Alegreya-Regular.eot');
-src: url('font/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Regular.woff2') format('woff2'),
-url('font/Alegreya-Regular.woff') format('woff');
+src: url('../font/Alegreya-Regular.eot');
+src: url('../font/Alegreya-Regular.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Regular.woff2') format('woff2'),
+url('../font/Alegreya-Regular.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: normal;
   font-style: italic;
-src: url('font/Alegreya-Italic.eot');
-src: url('font/Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Italic.woff2') format('woff2'),
-url('font/Alegreya-Italic.woff') format('woff');
+src: url('../font/Alegreya-Italic.eot');
+src: url('../font/Alegreya-Italic.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Italic.woff2') format('woff2'),
+url('../font/Alegreya-Italic.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: bold;
   font-style: normal;
-src: url('font/Alegreya-Bold.eot');
-src: url('font/Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-Bold.woff2') format('woff2'),
-url('font/Alegreya-Bold.woff') format('woff');
+src: url('../font/Alegreya-Bold.eot');
+src: url('../font/Alegreya-Bold.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-Bold.woff2') format('woff2'),
+url('../font/Alegreya-Bold.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Alegreya';
   font-weight: bold;
   font-style: italic;
-src: url('font/Alegreya-BoldItalic.eot');
-src: url('font/Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'),
-url('font/Alegreya-BoldItalic.woff2') format('woff2'),
-url('font/Alegreya-BoldItalic.woff') format('woff');
+src: url('../font/Alegreya-BoldItalic.eot');
+src: url('../font/Alegreya-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('../font/Alegreya-BoldItalic.woff2') format('woff2'),
+url('../font/Alegreya-BoldItalic.woff') format('woff');
   font-display: swap;
 }
 
@@ -45,10 +45,10 @@ url('font/Alegreya-BoldItalic.woff') format('woff');
   font-family: 'Courgette';
   font-weight: normal;
   font-style: normal;
-src: url('font/Courgette.eot');
-src: url('font/Courgette.eot?#iefix') format('embedded-opentype'),
-url('font/Courgette.woff2') format('woff2'),
-url('font/Courgette.woff') format('woff');
+src: url('../font/Courgette.eot');
+src: url('../font/Courgette.eot?#iefix') format('embedded-opentype'),
+url('../font/Courgette.woff2') format('woff2'),
+url('../font/Courgette.woff') format('woff');
   font-display: swap;
 }
 
@@ -56,20 +56,20 @@ url('font/Courgette.woff') format('woff');
   font-family: 'AlegreyaSC';
   font-weight: normal;
   font-style: normal;
-src: url('font/AlegreyaSansSC-Light.eot');
-src: url('font/AlegreyaSansSC-Light.eot?#iefix') format('embedded-opentype'),
-url('font/AlegreyaSansSC-Light.woff2') format('woff2'),
-url('font/AlegreyaSansSC-Light.woff') format('woff');
+src: url('../font/AlegreyaSansSC-Light.eot');
+src: url('../font/AlegreyaSansSC-Light.eot?#iefix') format('embedded-opentype'),
+url('../font/AlegreyaSansSC-Light.woff2') format('woff2'),
+url('../font/AlegreyaSansSC-Light.woff') format('woff');
   font-display: swap;
 }
 @font-face {
   font-family: 'Inconsolata';
   font-weight: normal;
   font-style: normal;
-src: url('font/Inconsolata.eot');
-src: url('font/Inconsolata.eot?#iefix') format('embedded-opentype'),
-url('font/Inconsolata.woff2') format('woff2'),
-url('font/Inconsolata.woff') format('woff');
+src: url('../font/Inconsolata.eot');
+src: url('../font/Inconsolata.eot?#iefix') format('embedded-opentype'),
+url('../font/Inconsolata.woff2') format('woff2'),
+url('../font/Inconsolata.woff') format('woff');
   font-display: swap;
 }
 
@@ -135,7 +135,7 @@ html, *, *:before, *:after {
 
 }
 html {
-     bakground: transparent url(img/1oceanbg.png) repeat top center;   }
+     bakground: transparent url(../img/1oceanbg.png) repeat top center;   }
 
 html>body {
     font-size: 16px;
@@ -161,7 +161,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0; 
-    background: transparent url(img/2oceantoo.jpg) repeat-x top center; 
+    background: transparent url(../img/2oceantoo.jpg) repeat-x top center; 
   }
 
   /* ==========================================================================
@@ -665,7 +665,7 @@ hr {
     width:100%; 
     height: 1px;
     margin: 1.618em auto;
-    background: url(img/4horizontal-rule.png) no-repeat center;
+    background: url(../img/4horizontal-rule.png) no-repeat center;
     background-size: contain;
     border:none;
   }
@@ -1830,7 +1830,7 @@ td {
 
 
 /* ==========================================================================
-   COLOURS USED (Tip: look at themecolours.png in Styles/img folder)
+   COLOURS USED (Tip: look at themecolours.png in img folder)
    ========================================================================== */
 
 .site-header,
@@ -1955,8 +1955,7 @@ a.topr:active,
 p#txpCommentInputForm,
 .site-header a:hover, 
 .site-header a:active,
-.required,
-.gdpr
+.required
   {color: #c96536;  }
 
 a:focus 
@@ -1967,6 +1966,7 @@ a:focus
   {border-color: #c96536;  }
 
 p.subhead,
+.gdpr,
 mark,
 var,
 blockquote, 
